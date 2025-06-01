@@ -1,0 +1,219 @@
+/* Css for index.html file */
+
+.sitename {
+    color: blue;
+    padding-left: 40px;
+    padding-top: 7px;
+    margin-top: 0;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+
+.sitelink{
+    text-decoration: none;
+    color: blue;
+}
+
+.tagline {
+    color: rgb(103, 103, 103);
+    font-family: cursive;
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 40px;
+    margin-top: -65px;
+}
+
+.tagline2 {
+    color: rgb(227, 177, 27);
+    font-family:cursive;
+    font-style: oblique;
+    font-size: 12px;
+    margin-top: -29px;
+    padding-left: 53px;
+}
+
+header {
+    background-color: white;
+    height: 65px;
+    margin: 0;
+}
+
+.signupbutton, .homebutton {
+    margin-left: 1000px;
+    margin-top: -50px;
+}
+
+.signuplink, .homelink {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-family: sans-serif;
+    padding-top: 7px;
+    padding-left: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+}
+
+.signuplink:hover, .homelink:hover {
+    background-color: rgb(55, 55, 249);
+    color: white;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.loginpng {
+    height: 20px;
+    padding-right: 10px;
+}
+
+body {
+    background-color: rgb(211, 211, 211);
+    margin: 0;
+}
+
+.subheading {
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    margin-top: -12px;
+    padding-left: 20px;
+    padding-top: 13px
+}
+
+.productsection {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 23px;
+}
+
+.figure {
+    display: inline-block;
+    padding-left: 40px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.figure1 {
+    display: inline-block;
+    padding-left: 40px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.figurelast {
+    display: inline-block;
+    padding-left: 40px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.productimage {
+    height: 170px;
+}
+
+.productcaption {
+    font-family: Calibri, sans-serif;
+    padding-top: 5px;
+    margin: 0;
+    display: inline-block;
+}
+
+.buynowbutton {
+    background-color: #eaf2ff;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-bottom: 7px;
+    padding: 5px;
+    font-size: 15px;
+    border: solid rgb(243, 156, 69);
+    border-radius: 15px;
+}
+
+.buynowbutton:hover {
+    background-color: rgb(243, 156, 69);
+    color: rgb(228, 244, 248);
+    border-color: rgb(250, 214, 53);
+}
+
+footer, .copy,  .tnp, .link{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.tnp {
+    margin-top: -14px;
+    margin-bottom: 25px;
+}
+
+.copy {
+    display: inline-block;
+}
+
+footer {
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+
+.email_link {
+    text-decoration: none;
+    color: white;
+}
+
+.email_link:hover, .link:hover {
+    color:grey;
+}
+
+.email_link:visited, .link:visited {
+    color:rgb(135, 163, 255);
+}
+
+.emaillogo {
+    height: 40px;
+}
+
+
+/* Css for order_confirmation.html file */
+
+.success_page_body {
+    background-color:black;
+}
+
+.success_msg {
+    color: rgb(37, 220, 0);
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.home_button {
+    text-decoration: none;
+    font-size: 40px;
+    background-color: rgb(171, 74, 0);
+    margin-left: 41%;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+/* Css for signup.html file */
+
+.signup {
+    color: rgb(173, 90, 0);
+    font-size: 25px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 47%;
+}
+

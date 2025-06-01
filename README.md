@@ -8,12 +8,12 @@ This project began using only **HTML** — no CSS, no JavaScript — just clean 
 
 It's my starting point to learn, grow, and eventually build a complete online shopping experience.
 
-## 🛠️ What's Next?
+## Updates:
 
-As I continue to learn, I plan to:
-- 💅 Add **CSS** for styling and layout
-- ⚙️ Use **JavaScript** for interactivity
-- 🧠 Improve the design to make it more professional
+
+Added a CSS file, and applied the Css styles to the most of the pages.
+
+Wrote the first structure using only HTML.
 
 ## 📌 Why QuickCart?
 

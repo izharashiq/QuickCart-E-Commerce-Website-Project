@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickCart HomePage</title>
+</head>
+    <body>
+        <header>
+            <h1 class="sitename"><a class="sitelink" href="/">QuickCart</a></h1>
+
+            <pre class="homebutton">
+                <a class="homelink" href="/"><img class="loginpng" src="images/login.png">Home</a>
+            </pre>
+        </header>
+        
+        <main>
+            <section>
+                <p class="signup">Sign Up</p>
+                <form action="/server-url" method="Post">
+                    
+                    <fieldset><b>Enter your Name</b><br><label for="name"><input required type="text" id="name" name="Name" placeholder="Your Full Name"></label></fieldset><br>
+                    
+                    <fieldset><b>Email</b> <br><label for="email"><input required type="email" id="email" name="Email" placeholder="abc@mymail.com"></label></fieldset><br>
+                    
+                    <fieldset><b>Set a Password</b> <br><label for="password"><input required type="password" id="password" name="Password" placeholder="8 Characters Long"></label></fieldset><br>
+                    
+                    <fieldset><b>Gender</b><br>
+                    <label for="male"><input required type="radio" id="male" name="Gender" value="Male"> Male</label>
+                    <label for="female"><input required type="radio" id="female" name="Gender" value="Female"> Female</label></fieldset><br>
+
+                    <b>How did you find this us?</b><br>
+                    <label for="fb"><input required type="radio" id="fb" name="" value="Facebook"> Fabebook</label><br>
+                    <label for="ig"><input required type="radio" id="ig" name="Found this" value="Instagram"> Instagram</label><br>
+                    <label for="yt"><input required type="radio" id="yt" name="Found this" value="Youtube"> Youtube</label><br>
+                    <label for="gg"><input required type="radio" id="gg" name="Found this" value="Google"> Google</label><br>
+                    <label for="ad"><input required type="radio" id="git" name="Found this" value="Advertise"> Advertise</label><br>
+                    <label for="ot"><input required type="radio" id="ot" name="Found this" value="Other"> Other</label><br><br>
+                    
+                    <b>Which OS do you use?</b><br>
+                    <select name="OS">
+                        <option value="Windows">Windows</option>
+                        <option value="Mac Os">Mac OS</option>
+                        <option value="Linux">Linux</option>
+                        <option value="Unix">Unix</option>
+                        <option value="Ubuntu">Ubuntu</option>
+                        <option value="Android">Android</option>
+                        <option value="IOS">IOS</option>
+                    </select>
+                    <br>
+                    <br>
+                    
+                    <input type="hidden" name="_captcha" value="false"><br>  <!-- Bypass the captcha (if any) while sending the submitted data to server.-->
+                    <input type="hidden" name="_next" value="http://127.0.0.1/home.html"> <!--After clicking 'Submit' button, it redirects to this domain-->
+
+                    <input type="submit" value="Sign Up"></input>
+
+                </form>
+
+            </section>
+
+        </main>
+    </div>
+    </body>
+
+</html>
