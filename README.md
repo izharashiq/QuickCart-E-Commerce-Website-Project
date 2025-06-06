@@ -4,7 +4,7 @@
 
 ## Updates:
 
-*Applied more CSS*
+*Applied more CSS (like: Shadows, Gradients, Borders, Opacity, Colors etc.) and Improved the UI*
 
 ## 🚀 Project Overview
 
