@@ -4,8 +4,7 @@
 
 ## Updates:
 
-1. *Wrote the first structure using only HTML.*
-2. *Added a CSS file, and applied the CSS styles to most of the pages.*
+*Applied more CSS*
 
 ## 🚀 Project Overview
 
